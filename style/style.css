@@ -35,6 +35,7 @@ p{
 .section-title h3{
     font-size: 3rem;
     font-weight: 900;
+    margin: 1rem ;
 }
 /* nav section */
 header{
@@ -168,4 +169,22 @@ nav{
     grid-template-columns: repeat(4,1fr);
     gap: 40px;
     margin-top: 60px;
+}
+/* run extra mile */
+.extra-mile{
+    display: flex;
+    background-color: #222222;
+    height: 371px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 18px;
+}
+.run-content p{
+    width: 445px;
+    margin-bottom: 24px;
+}
+.run-img img{
+    width: 350px;
+    height: 312px;
+    border-radius: 18px;
 }
