@@ -188,3 +188,42 @@ nav{
     height: 312px;
     border-radius: 18px;
 }
+/* bmi section */
+table{
+    border-collapse: collapse; 
+ }
+ th ,td{
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     padding: 10px 15px;
+  
+ }
+ td{
+    color:rgba(255, 255, 255, 0.5);
+ }
+
+ /* bmi-form */
+ .bmi-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    border-radius: .5rem;
+    padding: 3rem;
+ }
+ form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+   
+ }
+ form input,select{
+    /* height: 3rem; */
+    border-radius: .5rem;
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+ }
+ .bmi-form{
+    width: 50%;
+ }
