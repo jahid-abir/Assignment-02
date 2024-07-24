@@ -210,6 +210,10 @@ table{
     border-radius: .5rem;
     padding: 3rem;
  }
+ h2{
+    font-size: 1.75rem;
+    font-weight: 900;
+ }
  form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -226,4 +230,35 @@ table{
  }
  .bmi-form{
     width: 50%;
+ }
+ /* meet our team section */
+ .team-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    gap: 20px;
+ }
+ .team-img{
+    height: 275px;
+ }
+ .team-img img{
+    height: 275px;
+    width: 100%;
+    border-radius: .5rem;
+    filter: brightness(70%);
+ }
+ .img-content h4{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 2px 0;
+ }
+ .img-content p{
+    margin: 3px 0;
+ }
+ .img-content{
+    line-height: 30px;
+    position:relative;
+    top: -80px;
+    right: -20px;
+    width: 200px;
  }
