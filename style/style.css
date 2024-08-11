@@ -379,8 +379,16 @@ table{
         width: auto;
     }
     .banner-card-1{
-        left: 53%;
+        left: 57%;
         top: 10%;
+        height: 4.75rem;
+        width: 9rem;
+    }
+    .banner-card-1 h5{
+        font-size: 30px;
+    }
+    .banner-card-1 p{
+        font-size: 9px;
     }
     .banner-card-2{
         right: 40%;
