@@ -35,6 +35,10 @@ p{
     background-color: rgb(230, 83, 60) ;
     border: none;
     margin-right: 1rem;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:  rgba(230, 83, 60 ,.9);
 }
 .section-title h3{
     font-size: 3rem;
@@ -302,6 +306,11 @@ table{
     border-radius: 1rem;
     border: none;
     color: rgb(180, 104, 255) ;
+    cursor: pointer;
+}
+.btn-secondary:hover{
+    background-color:rgb(251, 101, 20);
+    color: white;
 }
  /* footer */
  footer{
