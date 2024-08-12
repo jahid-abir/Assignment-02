@@ -446,6 +446,7 @@ table{
     }
     .btn-secondary{
         background-color: rgb(251, 101, 20);
+        color: white;
     }
     .footer-content{
         margin-left: 1.5rem;
